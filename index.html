@@ -13,17 +13,17 @@
       background-position: center;  /* centers the image */
       background-attachment: fixed; /* keeps background static when scrolling */
     }
- a {
-  display: block;
-  margin: 10px 0;
+a {
+  display: inline-block;       /* only as wide as the text + padding */
+  margin: 10px;                /* space around each bubble */
   font-size: 2.5em;
-  color: #ffd700;             /* gold text */
+  color: #ffd700;              /* gold text */
   text-decoration: none;
-  text-align: center;         /* centers the text */
-  background-color: black;    /* solid black bubble */
-  border: 5px solid black;    /* matches the bubble edge */
-  padding: 15px;              /* space inside the bubble */
-  border-radius: 30px;        /* rounded corners for bubble look */
+  text-align: center;
+  background-color: black;     /* solid black bubble */
+  border: 5px solid black;     /* matches the bubble edge */
+  padding: 15px 25px;          /* space inside bubble (horizontal padding wider) */
+  border-radius: 30px;         /* rounded corners for bubble look */
 }
 }
     }

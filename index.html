@@ -29,6 +29,31 @@ a {
     a:hover {
       color: #0077ff;
     }
+    /* Video embed styling */
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 560px;
+      margin: 20px auto;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    #HVideo {
+      font-size: 2em;
+      color: #a88f00;
+      border: 5px solid black;
+      background-color: rgb(255, 255, 255);
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 50px;
+    }
   </style>
 </head>
 <body>
@@ -53,5 +78,15 @@ a {
   <a href="https://www.instagram.com/the_locket_cm/?__pwa=1" target="_blank">Instagram</a>
   <a href="https://www.youtube.com/@Locket_CM" target="_blank">YouTube</a>
   <a href="https://x.com/The_LocketCM" target="_blank">X (Twitter)</a>
+
+  <div>
+
+    <h1 id="HVideo">Top Clip</h1>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/y-SCD5Rhse0?rel=0" title="YouTube Short" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+    </div>
+  </div>
+
+
 </body>
 </html>
